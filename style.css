@@ -1,0 +1,98 @@
+ 
+        body {
+            background-image: url("./circle-scatter-haikei\ \(1\).png");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            color: white;
+        }
+
+        h1 {
+            font-family: cursive;
+            text-align: center;
+            color: white !important; 
+            margin: 25px !important;
+        }
+
+        #main-container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+
+        .mian > input {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .add, .del {
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .abc > li {
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: decimal;
+            color: white !important;
+        }
+
+        @media only screen and (max-width: 768px) {
+            #main-container {
+                width: 90%;
+                padding: 15px;
+            }
+            
+            .mian > input {
+                width: 100%;
+            }
+
+            .abc > li {
+                margin-left: 0;
+                text-align: left;
+                color: white !important;
+            }
+
+                 
+        body {
+            background-image: url("./circle-scatter-haikei\ \(1\).png");
+            background-repeat: no-repeat;
+            background-size:cover;
+            color: white;
+        }
+        }
+
+        @media only screen and (max-width: 524px) {
+            #main-container {
+                width: 100%;
+            }
+
+            .abc > li {
+                flex-direction: column;
+                align-items: flex-start;
+                color: white !important;
+            }
+
+            .add, .del {
+                width: 100%;
+                margin-right: 0;
+            }
+            .btn-info{
+                width: 100%;
+
+            }
+            .btn-danger{
+                width: 100%;
+            }
+            
+        body {
+            background-image: url("./circle-scatter-haikei\ \(1\).png");
+            background-repeat: no-repeat;
+            background-size: 150vh;
+            color: white;
+        }
+
+        }
